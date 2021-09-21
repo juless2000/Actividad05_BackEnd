@@ -1,9 +1,8 @@
 package com.empresa.entity;
 
 
-import java.sql.Time;
 import java.time.LocalTime;
-import java.util.Date;
+
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

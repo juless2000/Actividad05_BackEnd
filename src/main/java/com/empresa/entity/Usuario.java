@@ -41,7 +41,7 @@ public class Usuario {
 	@JsonFormat(pattern = "yyyy-MM-dd", timezone="America/Lima" )
 	@DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss")
 	@Temporal(TemporalType.TIMESTAMP)
-	private DateTimeFormat fechaRegistro;
+	private Date fechaRegistro;
 	
 	private String email;
 	
